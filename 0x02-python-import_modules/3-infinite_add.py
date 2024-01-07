@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-import sys
+if __name__ == "__main__":
+    from sys import argv
 
-
-x = sys.argv[1:]
-result = sum(int(arg) for arg in x)
-print(result)
+    add = 0
+    for i in range(1, len(argv)):
+        add += int(argv[i])
+    print("{}".format(add))
 
 
