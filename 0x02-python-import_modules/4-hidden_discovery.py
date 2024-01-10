@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-import hidden_4
-def discover():
-    name = dir(hidden_4)
-    for i in name:
-        if i[:2] != '__':
-            print("{:s}".format(i))
 if __name__ == "__main__":
-    discover()
+    from hidden_4 import *
+    all_functions = dir()
+    for i in range(0, len(all_functions):
+            if all_functions[i][:2] != "__":
+                print("{:s}".format(all_functions[i]))
         
