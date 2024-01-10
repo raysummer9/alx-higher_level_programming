@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-def uniq_add(my_list=[]):
-    unique_values = set()
-    for num in my_list:
-        unique_values.add(num)
-    result = sum(unique_values)
-    return result
+def common_elements(set_1, set_2):
+        common_element = set_1 & set_2
+            return common_element
