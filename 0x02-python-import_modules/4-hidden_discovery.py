@@ -1,4 +1,10 @@
 #!/usr/bin/python3
-from variable_load__5 import a
-if __name_ == "__main__":
-    print("{}".format(a))
+import hidden_4
+def discover():
+    name = dir(hidden_4)
+    for i in name:
+        if i[:2] != '__':
+            print("{:s}".format(i))
+if __name__ == "__main__":
+    discover()
+        
