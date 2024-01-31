@@ -2,4 +2,4 @@
 
 def magic_string(name=[]):
     name.append("BestSchool")
-    return ",".join(name)
+    return ", ".join(name)
